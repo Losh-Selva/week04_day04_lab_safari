@@ -51,15 +51,15 @@ INSERT INTO enclosure (name, capacity, closedForMainenance) VALUES ('Meerkat enc
 
 -- Create assignment
 
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (1, 1, 'Monday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (1, 1, 'Tuesday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (2, 2, 'Tuesday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (3, 2, 'Wednesday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (4, 3, 'Thursday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (4, 1, 'Thursday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (5, 3, 'Friday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (6, 4, 'Saturday');
-INSERT INTO assignment (employeeid, enclosureid, day) VALUES (6, 5, 'Sunday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (1, 1, 'Monday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (1, 1, 'Tuesday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (2, 2, 'Tuesday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (3, 2, 'Wednesday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (4, 3, 'Thursday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (4, 1, 'Thursday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (5, 3, 'Friday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (6, 4, 'Saturday');
+INSERT INTO assignment (staffid, enclosureid, day) VALUES (6, 5, 'Sunday');
 
 --create animal
 
